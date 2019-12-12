@@ -4,3 +4,21 @@
 
 /* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "c8o-Z4-3yp"; */
 "c8o-Z4-3yp.title" = "ホーム";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ayl-xc-QUA"; */
+"Ayl-xc-QUA.text" = "Label";
+
+/* Class = "UILabel"; text = "Change Skin"; ObjectID = "QNR-hU-Fhs"; */
+"QNR-hU-Fhs.text" = "テーマを変更";
+
+/* Class = "UIButton"; normalTitle = "Dismiss"; ObjectID = "8Mt-uj-hzC"; */
+"8Mt-uj-hzC.normalTitle" = "消える";
+
+/* Class = "UIButton"; normalTitle = "Change SKin"; ObjectID = "6y8-44-C0t"; */
+"6y8-44-C0t.normalTitle" = "スイッチ";
+
+
+"kjW-lb-Eib.segmentTitles[1]" = "白";
+
+
+"kjW-lb-Eib.segmentTitles[0]" = "黒";

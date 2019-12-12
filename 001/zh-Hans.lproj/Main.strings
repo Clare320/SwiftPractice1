@@ -1,6 +1,28 @@
 
 /* Class = "UILabel"; text = "Select Area"; ObjectID = "Tof-Qf-Nh0"; */
-"Tof-Qf-Nh0.text" = "Select Area";
+"Tof-Qf-Nh0.text" = "选择区域";
 
 /* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "c8o-Z4-3yp"; */
-"c8o-Z4-3yp.title" = "Root View Controller";
+"c8o-Z4-3yp.title" = "主页";
+
+//##################################################################################
+//#           AutoGenStrings            2019-12-12 15:36:06
+//##################################################################################
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ayl-xc-QUA"; */
+"Ayl-xc-QUA.text" = "Label";
+
+/* Class = "UILabel"; text = "Change Skin"; ObjectID = "QNR-hU-Fhs"; */
+"QNR-hU-Fhs.text" = "换肤";
+
+/* Class = "UIButton"; normalTitle = "Dismiss"; ObjectID = "8Mt-uj-hzC"; */
+"8Mt-uj-hzC.normalTitle" = "Dismiss";
+
+/* Class = "UIButton"; normalTitle = "Change SKin"; ObjectID = "6y8-44-C0t"; */
+"6y8-44-C0t.normalTitle" = "Change SKin";
+
+
+"kjW-lb-Eib.segmentTitles[1]" = "Light";
+
+
+"kjW-lb-Eib.segmentTitles[0]" = "Dark";
