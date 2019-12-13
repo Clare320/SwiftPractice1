@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,10 @@
 		841F560C23A2177F009F3495 /* LJThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F560B23A2177F009F3495 /* LJThemeManager.swift */; };
 		841F561023A2246A009F3495 /* AutoGenStrings.py in Resources */ = {isa = PBXBuildFile; fileRef = 841F560F23A2246A009F3495 /* AutoGenStrings.py */; };
 		841F561323A231DB009F3495 /* ChangeSkinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F561223A231DB009F3495 /* ChangeSkinViewController.swift */; };
+		84362A3823A32ECF00C41899 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84362A3723A32ECF00C41899 /* WeatherViewController.swift */; };
+		84362A3B23A351B600C41899 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84362A3A23A351B600C41899 /* NetworkViewController.swift */; };
+		84362A3E23A355F000C41899 /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84362A3C23A355F000C41899 /* WeatherCollectionViewCell.swift */; };
+		84362A3F23A355F000C41899 /* WeatherCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84362A3D23A355F000C41899 /* WeatherCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +57,10 @@
 		841F560D23A220E3009F3495 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		841F560F23A2246A009F3495 /* AutoGenStrings.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = AutoGenStrings.py; sourceTree = "<group>"; };
 		841F561223A231DB009F3495 /* ChangeSkinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSkinViewController.swift; sourceTree = "<group>"; };
+		84362A3723A32ECF00C41899 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		84362A3A23A351B600C41899 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		84362A3C23A355F000C41899 /* WeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		84362A3D23A355F000C41899 /* WeatherCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCollectionViewCell.xib; sourceTree = "<group>"; };
 		8F8408AA11AA7CF012F89B0B /* Pods-001.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-001.debug.xcconfig"; path = "Target Support Files/Pods-001/Pods-001.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +105,8 @@
 		841F55D923A0C5A9009F3495 /* 001 */ = {
 			isa = PBXGroup;
 			children = (
+				84362A3923A3519600C41899 /* AlamofireTest */,
+				84362A3623A32EAF00C41899 /* Weather */,
 				841F560E23A22438009F3495 /* Scripts */,
 				841F560423A210B3009F3495 /* Themes */,
 				841F55DA23A0C5A9009F3495 /* AppDelegate.swift */,
@@ -133,13 +143,30 @@
 			path = Scripts;
 			sourceTree = "<group>";
 		};
+		84362A3623A32EAF00C41899 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				84362A3723A32ECF00C41899 /* WeatherViewController.swift */,
+				84362A3C23A355F000C41899 /* WeatherCollectionViewCell.swift */,
+				84362A3D23A355F000C41899 /* WeatherCollectionViewCell.xib */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		84362A3923A3519600C41899 /* AlamofireTest */ = {
+			isa = PBXGroup;
+			children = (
+				84362A3A23A351B600C41899 /* NetworkViewController.swift */,
+			);
+			path = AlamofireTest;
+			sourceTree = "<group>";
+		};
 		F57DC74BD06DD1B98601D646 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				8F8408AA11AA7CF012F89B0B /* Pods-001.debug.xcconfig */,
 				1ABC543A3DCFC10E36AB9FB8 /* Pods-001.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,6 +236,7 @@
 				841F55E723A0C5AB009F3495 /* LaunchScreen.storyboard in Resources */,
 				841F55F523A0E0B3009F3495 /* Localizable.strings in Resources */,
 				841F55E423A0C5AB009F3495 /* Assets.xcassets in Resources */,
+				84362A3F23A355F000C41899 /* WeatherCollectionViewCell.xib in Resources */,
 				841F561023A2246A009F3495 /* AutoGenStrings.py in Resources */,
 				841F55E223A0C5A9009F3495 /* Main.storyboard in Resources */,
 				841F55FD23A0E65D009F3495 /* InfoPlist.strings in Resources */,
@@ -282,12 +310,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				841F55DF23A0C5A9009F3495 /* ViewController.swift in Sources */,
+				84362A3823A32ECF00C41899 /* WeatherViewController.swift in Sources */,
+				84362A3B23A351B600C41899 /* NetworkViewController.swift in Sources */,
 				841F55DB23A0C5A9009F3495 /* AppDelegate.swift in Sources */,
 				841F560A23A215E0009F3495 /* LJLightTheme.swift in Sources */,
 				841F560C23A2177F009F3495 /* LJThemeManager.swift in Sources */,
 				841F560823A21418009F3495 /* LJDarkTheme.swift in Sources */,
 				841F561323A231DB009F3495 /* ChangeSkinViewController.swift in Sources */,
 				841F55DD23A0C5A9009F3495 /* SceneDelegate.swift in Sources */,
+				84362A3E23A355F000C41899 /* WeatherCollectionViewCell.swift in Sources */,
 				841F560623A210F8009F3495 /* LJTheme.swift in Sources */,
 				841F560323A0E91C009F3495 /* RootTableViewController.swift in Sources */,
 			);

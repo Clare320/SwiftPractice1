@@ -16,7 +16,7 @@
 "QNR-hU-Fhs.text" = "换肤";
 
 /* Class = "UIButton"; normalTitle = "Dismiss"; ObjectID = "8Mt-uj-hzC"; */
-"8Mt-uj-hzC.normalTitle" = "Dismiss";
+"8Mt-uj-hzC.normalTitle" = "完成";
 
 /* Class = "UIButton"; normalTitle = "Change SKin"; ObjectID = "6y8-44-C0t"; */
 "6y8-44-C0t.normalTitle" = "Change SKin";
@@ -26,3 +26,24 @@
 
 
 "kjW-lb-Eib.segmentTitles[0]" = "Dark";
+
+/* Class = "UILabel"; text = "Weather"; ObjectID = "TIv-wQ-Fal"; */
+"TIv-wQ-Fal.text" = "天气";
+
+
+"0rl-7t-EVM.segmentTitles[1]" = "data";
+
+
+"0rl-7t-EVM.segmentTitles[4]" = "decodable";
+
+
+"0rl-7t-EVM.segmentTitles[0]" = "normal";
+
+
+"0rl-7t-EVM.segmentTitles[3]" = "json";
+
+
+"0rl-7t-EVM.segmentTitles[2]" = "string";
+
+/* Class = "UILabel"; text = "Network"; ObjectID = "XMA-jv-4fE"; */
+"XMA-jv-4fE.text" = "网络";

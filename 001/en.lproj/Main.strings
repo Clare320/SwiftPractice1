@@ -26,3 +26,24 @@
 
 
 "kjW-lb-Eib.segmentTitles[0]" = "黑色";
+
+/* Class = "UILabel"; text = "Weather"; ObjectID = "TIv-wQ-Fal"; */
+"TIv-wQ-Fal.text" = "Weather";
+
+
+"0rl-7t-EVM.segmentTitles[1]" = "data";
+
+
+"0rl-7t-EVM.segmentTitles[4]" = "decodable";
+
+
+"0rl-7t-EVM.segmentTitles[0]" = "normal";
+
+
+"0rl-7t-EVM.segmentTitles[3]" = "json";
+
+
+"0rl-7t-EVM.segmentTitles[2]" = "string";
+
+/* Class = "UILabel"; text = "Network"; ObjectID = "XMA-jv-4fE"; */
+"XMA-jv-4fE.text" = "Network";
